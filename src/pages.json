@@ -1,0 +1,119 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/signIn",
+			"style": {
+				"navigationBarTitleText": "Marier"
+			}
+		},
+		{
+			"path": "pages/index/signUp",
+			"style": {
+				"navigationBarTitleText": "Marier"
+			}
+		},
+		{
+			"path": "pages/index/forgotPwd",
+			"style": {
+				"navigationBarTitleText": "Marier"
+			}
+		},
+		{
+			"path": "pages/homePage",
+			"style": {
+				"navigationBarTitleText": "Marier"
+			}
+		},
+		{
+			"path": "pages/category",
+			"style": {
+				"navigationBarTitleText": "Marier"
+			}
+		},
+		{
+			"path": "pages/featured",
+			"style": {
+				"navigationBarTitleText": "Marier"
+			}
+		},
+		{
+			"path": "pages/my",
+			"style": {
+				"navigationBarTitleText": "Marier"
+			}
+		},
+		{
+			"path":"pages/sidebar/language",
+			"style": {
+				"navigationBarTitleText": "Marier"
+			}
+		},
+		{
+			"path":"pages/sidebar/myAddressList",
+			"style": {
+				"navigationBarTitleText": "Marier"
+			}
+		},
+		{
+			"path":"pages/sidebar/myAddress",
+			"style": {
+				"navigationBarTitleText": "Marier"
+			}
+		},
+		{
+			"path":"pages/sidebar/settings",
+			"style": {
+				"navigationBarTitleText": "Marier"
+			}
+		},
+		{
+			"path":"pages/sidebar/help",
+			"style": {
+				"navigationBarTitleText": "Marier"
+			}
+		},
+		{
+			"path":"pages/detail",
+			"style": {
+				"navigationStyle": "custom",
+				"navigationBarTitleText": "Marier"
+			}
+		},
+		{
+			"path":"pages/home",
+			"style": {
+				"navigationBarTitleText": "Marier"
+			}
+		}
+
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	}
+	/* "tabBar": {
+		"list": [{
+			"pagePath": "pages/homePage",
+			"iconPath": "./static/icon/首页.png",
+			"selectedIconPath": "./static/icon/首页(1).png"
+		  },
+		  {
+			  "pagePath": "pages/category",
+			  "iconPath": "./static/icon/商圈.png",
+			  "selectedIconPath": "./static/icon/商圈(1).png"
+		  },
+		  {
+			  "pagePath": "pages/featured",
+			  "iconPath": "./static/icon/收藏.png",
+			  "selectedIconPath": "./static/icon/收藏(1).png"
+		  },
+		  {
+			  "pagePath": "pages/my",
+			  "iconPath": "./static/icon/我的关注.png",
+			  "selectedIconPath": "./static/icon/我的关注(1).png"
+		  }
+	  ]
+	} */
+}

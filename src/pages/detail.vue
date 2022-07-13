@@ -209,6 +209,7 @@ export default {
             wx.redirectTo({url:a})
         },
 	},
+	//监控屏幕滚动距离
 	onPageScroll(e){
 		var scrollTop = e.scrollTop
 		console.log("滚动距离" + scrollTop);
@@ -230,18 +231,10 @@ export default {
 				that.productTop = rect[0].top+0
 				console.log('product顶部值为',that.productTop);
 			})
-			// // 获取footer高度
-			// query.select('.footer').boundingClientRect(function(res){
-			// 	console.log('footer',res);
-			// }).exec(function(rect){
-			// 	that.footerHeight = rect[0].height+0
-			// 	console.log('footer高度值为',that.footerHeight);
-			// })
 		}, 100);
 		setTimeout(() => {
 			var that=this;
 			const query=wx.createSelectorQuery()
-			console.log('1',query);
 			// 获取pay底部
 			query.select('.pay').boundingClientRect(function(res){
 				console.log('pay',res);
@@ -256,7 +249,6 @@ export default {
 		setTimeout(() => {
 			var that=this;
 			const query=wx.createSelectorQuery()
-			console.log('1',query);
 			// 获取footer高度
 			query.select('.footer').boundingClientRect(function(res){
 				console.log('footer',res);

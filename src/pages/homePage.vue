@@ -171,6 +171,7 @@ export default {
             } else {
                 // this.showDialog = false
             }
+            // console.log('当前向右滑动距离为',e.changedTouches[0].clientX - this.start_clientX);
         },
         touchend(e){
             console.log(this.end_clientX);

@@ -106,7 +106,7 @@
 			<radio-group @change="radioChange">
 				<label class="lan" v-for="(item,index) in sizes" :key="item.value">
 					<div class="lanItem">{{item}}</div>
-					<div class="radio" @click="btnCheck(index)">
+					<div class="radio" @click="btnCheckSize(index)">
 						<div :class="{'radio-active':index === sizeIndex}"></div>
 						<!-- <radio color="blue" :value="item.value" :checked="item=='English'"></radio> -->
 					</div>
@@ -188,7 +188,7 @@ export default {
             console.log(e);
             this.sizeIndex = e.detail.value
         },
-        btnCheck(index) {
+        btnCheckSize(index) {
             this.sizeIndex = index
             this.finaSize=this.sizes[index]
         },

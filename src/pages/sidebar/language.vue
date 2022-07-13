@@ -10,12 +10,11 @@
             <div class="title">
                 <span>Language</span>
             </div>
-            <radio-group @change="radioChange">
-                <label class="lan" v-for="(item,index) in items" :key="item.value">
+            <radio-group>
+                <label class="lan" v-for="(item,index) in items" :key="index">
                     <div class="lanItem">{{item}}</div>
                     <div class="radio" @click="btnCheck(index)">
                         <div :class="{'radio-active':index === itemsIndex}"></div>
-                        <!-- <radio color="blue" :value="item.value" :checked="item=='English'"></radio> -->
                     </div>
                 </label>
             </radio-group>
